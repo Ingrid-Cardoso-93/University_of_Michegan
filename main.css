@@ -1,0 +1,118 @@
+.page{
+    display:flex;
+    margin-top:18px;
+}
+.logo{
+    margin-left:246px;
+    margin-top:13px;
+}
+.half{
+    margin-top: 45px;
+    margin-bottom: 190px;
+    width: 347px;
+    height: 550px;
+    display: table;
+}
+.form{
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1spx;
+    width: 347px;
+    height: 380px;
+}  
+div.form img{
+    margin-left: 80px;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+.field{
+    margin-top: 15px;
+}
+div.field input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #262626;
+    border-radius: 3px;
+    border: 1px solid rgb(219, 219, 219);
+    width: 245px;
+    margin-left: 38px;
+    margin-bottom: 6px;
+    padding: 11px;
+}
+div.field button{
+    background-color: rgb(174, 223, 255);
+    border-radius: 4px;
+    border: 1px solid transparent;
+    font-family: Arial, Helvetica, sans-serif; /* fonte */
+    font-size: 14px;  /* tamanho da fonte */
+    color: #ffffff; /* cor fonte */ 
+    width: 268px;
+    margin-left: 39px;
+    margin-top: 8px;
+    padding: 6px;
+}
+.line{
+    color: #999595;
+    border-top: 1px solid rgb(219, 219, 219);
+    content: "";
+    margin-left:40px;
+    margin-top: 25px;
+    position: absolute;
+    width: 265px;
+    z-index: -1;
+}
+div.line span{
+    /* to hide the lines from behind the text, you have to set the background color the same as the container */
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(139, 139, 139);
+    left: 50%;
+    padding: 0 18px;
+    position: absolute;
+    transform:translate(-50%,-50%);
+  }
+.column{
+    float: left;
+    margin-left: 3px;
+    margin-top: 42px;
+}
+div.column img{
+    border-radius: 1px;   
+}
+div.row a{
+    display: block;
+    text-align: center;
+    width: 78%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #385185;
+}
+.form_below{
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 1px;
+    height: 62px;
+    margin-top: 10px;
+}
+div.form_below p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(38, 3, 8, 38);
+    text-align: center;
+    margin-top: 22px;
+}
+div.form_below a{
+    color: rgb(0,149,246);
+    text-decoration: none;
+    font-size: 15px;
+}
+.apps{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgba(38, 3, 8, 38);
+    text-align: center;
+    margin-top: 19px;
+}
+div.apps img{
+    margin-top: 6px;
+    padding: 2px;
+}
